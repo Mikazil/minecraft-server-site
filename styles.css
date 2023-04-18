@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/minecraft-4');
-
+/*самый крутой файл*/
 :not(:defined)>* {
   display: none;
 }
@@ -145,7 +145,7 @@ h1.bigtext {
   font-family: 'Montserrat', sans-serif;
   font-size: 72px;
   font-size: 8vw;
-  margin: 0;
+  margin: 0%;
   margin-top: 3%;
 }
 
