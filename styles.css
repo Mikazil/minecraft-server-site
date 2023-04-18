@@ -145,6 +145,8 @@ h1.bigtext {
   font-family: 'Montserrat', sans-serif;
   font-size: 72px;
   font-size: 8vw;
+  margin: 0;
+  margin-top: 3%;
 }
 
 h2.notbigtext {
