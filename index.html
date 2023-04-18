@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <title>Simple Minecraft Server</title>
+  <meta charset="utf-8">
+  <meta name="description" content="&lt;model-viewer&gt; template">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type="text/css" href="./styles.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+</head>
+
+<body>
+  <div class="centersite">
+    <div class="info">
+      <h1 class="bigtext">Совсем новый сервер Minecraft!</h1>
+      <h2 class="notbigtext">Погрузись в захватывающий мир блоков на нашем сервере Minecraft!</h2>
+    </div>
+    <model-viewer src="float-island.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
+      poster="poster.webp" shadow-intensity="1" exposure="0.5" environment-image="music_hall_01_1k.hdr" auto-rotate>
+      <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+        View in your space
+      </button>
+      <div id="ar-prompt">
+        <img src="ar_hand_prompt.png">
+      </div>
+    </model-viewer>
+  </div>
+
+  <div class="blocktwo">
+    <h1 class="howgame">Как начать играть?</h1>
+    <div class="playboxes">
+
+      <div class="box1">
+        <h2>1. Подключитесь к серверу</h2>
+        <h3 style="font-weight: 400;">Подключитесь к серверу по нашему IP-адресу и порту сервера.<br> Возможно вам придется обновить версию Minecraft.</h3>
+      </div>
+
+      <div class="boxq2">
+        <h2>2. Зарегистрируйтесь на сервере</h2>
+        <h3 style="font-weight: 400;">После входа на сервер необходимо произвести регистрацию. <br> Чтобы сделать это, напишите в чат " /register (пароль) (пароль еще раз) "</h3>
+      </div>
+
+      <div class="boxq2">
+        <h2>3. Начните игру</h2>
+        <h3 style="font-weight: 400;"> После того, как вы создадите свой аккаунт, вы будете готовы начать игру на сервере.<br> При старте игры убедитесь, что вы понимаете правила и механику игры на сервере. </h3>
+      </div>
+
+    </div>
+    <div class="footer">
+      <p>© Design by Mikazil 2023<br>
+        Все права защищены!<br>
+        Оригинальные права принадлежат Mojang AB</p>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+</body>
+
+</html>
