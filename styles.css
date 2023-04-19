@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.cdnfonts.com/css/minecraft-4');
 /*самый крутой файл*/
 :not(:defined)>* {
   display: none;
@@ -177,6 +176,8 @@ div.playboxes{
   flex-direction: column;
 }
 
+/* box-shadow: -5px -5px 15px 5px rgba(187, 69, 255, 0.8), 5px 5px 15px 7px rgba(22, 0, 213, 0.8);*/
+
 div.boxq2{
   margin-top: 6vh;
 }
@@ -185,7 +186,7 @@ div.footer{
     position: inherit;
     bottom: 0px;
     display: flex;
-    width: 100vw;
+    width: 100%;
     align-content: center;
     justify-content: center;
     align-items: flex-end;
@@ -194,4 +195,15 @@ div.footer{
     font-family: 'Exo 2', sans-serif;
     height: 15vh;
     background-color: #191919;
+}
+
+a.button-reg{
+  background-color: #8989D9;
+  border-radius: 1vw;
+  transition: 0.300s;
+  color: white;
+}
+
+a.button-reg:hover{
+  box-shadow: -5px -5px 15px 5px rgba(187, 69, 255, 0.8), 5px 5px 15px 7px rgba(22, 0, 213, 0.8);
 }
