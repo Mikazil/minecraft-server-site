@@ -207,3 +207,21 @@ a.button-reg{
 a.button-reg:hover{
   box-shadow: -5px -5px 15px 5px rgba(187, 69, 255, 0.8), 5px 5px 15px 7px rgba(22, 0, 213, 0.8);
 }
+
+@media screen and (max-width: 500px) {
+  model-viewer{
+    display: none;
+  }
+  
+  div.info{
+    width: 100%;
+  }
+  
+  h1.bigtext{
+    font-size: 10vh;
+  }
+  
+  h2.notbigtext{
+    font-size: 4vh;
+  }
+}
