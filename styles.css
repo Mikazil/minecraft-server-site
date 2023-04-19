@@ -182,12 +182,16 @@ div.boxq2{
 }
 
 div.footer{
-  position: absolute;
-  bottom: 0px;
-  display: flex;
-  width: 100vw;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    position: inherit;
+    bottom: 0px;
+    display: flex;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    height: 15vh;
+    background-color: #191919;
 }
