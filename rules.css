@@ -13,18 +13,3 @@ div.rules{
     margin-right: 1vw;
     margin-bottom: 7vw;
 }
-
-div.footer{
-    position: inherit;
-    bottom: 0px;
-    display: flex;
-    width: 100%;
-    align-content: center;
-    justify-content: center;
-    align-items: flex-end;
-    text-align: center;
-    color: white;
-    font-family: 'Exo 2', sans-serif;
-    height: 15vh;
-    background-color: #191919;
-}
