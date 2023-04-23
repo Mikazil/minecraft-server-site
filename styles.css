@@ -141,8 +141,7 @@ div.info {
 }
 
 h1.bigtext {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 72px;
+  font-family: 'Montserrat', sans-serif; 
   font-size: 8vw;
   margin: 0%;
   margin-top: 3%;
@@ -213,15 +212,24 @@ a.button-reg:hover{
     display: none;
   }
   
+
+
   div.info{
     width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 0;
   }
   
   h1.bigtext{
-    font-size: 10vh;
+    font-size: 7vh;
   }
   
   h2.notbigtext{
-    font-size: 4vh;
+    font-size: 3vh;
   }
 }
